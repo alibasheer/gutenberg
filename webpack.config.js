@@ -125,7 +125,6 @@ const entryPointNames = [
 	'components',
 	'editor',
 	'utils',
-	'data',
 	'viewport',
 	'core-data',
 	'plugins',
@@ -134,6 +133,7 @@ const entryPointNames = [
 ];
 
 const gutenbergPackages = [
+	'data',
 	'date',
 	'dom',
 	'element',
