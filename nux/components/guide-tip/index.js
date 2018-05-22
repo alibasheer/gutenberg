@@ -89,7 +89,7 @@ export class GuideTip extends Component {
 									isPrimary
 									onClick={ onAdvance }
 								>
-									{ __( 'Next tip' ) }
+									{ __( 'Got it' ) }
 								</Button>
 							</p>
 							<IconButton

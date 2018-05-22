@@ -34,7 +34,7 @@ describe( 'GuideTip', () => {
 				It looks like you’re writing a letter. Would you like help?
 			</GuideTip>
 		);
-		wrapper.find( 'Button[children="Next tip"]' ).first().simulate( 'click' );
+		wrapper.find( 'Button[children="Got it"]' ).first().simulate( 'click' );
 		expect( onAdvance ).toHaveBeenCalled();
 	} );
 

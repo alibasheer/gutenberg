@@ -108,11 +108,9 @@ export class PostPreviewButton extends Component {
 				disabled={ ! isSaveable }
 			>
 				{ _x( 'Preview', 'imperative verb' ) }
-				{ isSaveable && (
-					<GuideTip guideID="core/editor" step={ 3 }>
-						{ __( 'Click ‘Preview’ to load a preview of this page, so you can make sure you’re happy with your blocks.' ) }
-					</GuideTip>
-				) }
+				<GuideTip guideID="core/editor" step={ 3 }>
+					{ __( 'Click ‘Preview’ to load a preview of this page, so you can make sure you’re happy with your blocks.' ) }
+				</GuideTip>
 			</Button>
 		);
 	}
