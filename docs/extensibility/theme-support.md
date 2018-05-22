@@ -151,3 +151,11 @@ body.gutenberg-editor-page .editor-block-list__block[data-align="full"] {
 You can use those editor widths to match those in your theme. You can use any CSS width unit, including `%` or `px`.
 
 Further reading: [Applying Styles with Stylesheets](https://wordpress.org/gutenberg/handbook/blocks/applying-styles-with-stylesheets/).
+
+## Styling blocks
+
+Core blocks come with default block styles, but the styles are not enqueued by default. If you'd like to take advantage of these styles, simply add theme support for `wp_block_styles`, and the styles will be enqueued.
+
+```php
+add_theme_support( 'wp_block_styles' );
+```
